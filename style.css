@@ -391,6 +391,14 @@ footer p {
     
   }
 
+  .portfolio-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3.5rem;
+  max-width: 100%; /* pour ne pas limiter la largeur */
+}
+
   .card {
     width: 400px;      /* largeur fixe raisonnable */
     max-width: 400px;  /* limite la largeur max */
